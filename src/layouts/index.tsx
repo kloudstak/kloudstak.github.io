@@ -12,7 +12,7 @@ type LayoutProps = {
     children: any
 }
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 const PageLayout: React.FC<LayoutProps> = ({children}) => (    
     <Layout className="layout">
